@@ -1,11 +1,11 @@
 Public Class BasicBrowser
-    ' Made by ░▒▓█│【Walkman】│█▓▒░
+    
     
     'use CType(TabControl.SelectedTab.Controls.Item(0), WebBrowser) to refer to the webbrowser on the active tab
     Dim configFilePath As String = Environment.GetEnvironmentVariable("AppData") & "\WalkmanOSS\BasicBrowser.xml"
     
     Friend openWithURI As String
-    Dim ReloadTitles() As String = {"Navigation Canceled", "This page can't be displayed", "", "", ""}
+    Dim ReloadTitles() As String = {"Navigation Cancelled", "This page can't be displayed🤦‍♂️🤦‍♂️🤦‍♂️ ", "", "", ""}
     
     Private Sub BasicBrowser_Load() Handles MyBase.Load
         For Each s As String In My.Application.CommandLineArgs
