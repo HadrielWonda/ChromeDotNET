@@ -507,6 +507,7 @@ Partial Class BasicBrowser
         Me.ToolStripStop.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripStop.Text = "&Stop"
         '
+        '
         'ToolStripHome
         '
         Me.ToolStripHome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image

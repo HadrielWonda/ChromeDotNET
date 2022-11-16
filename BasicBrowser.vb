@@ -227,7 +227,7 @@ Public Class BasicBrowser
             For i = 1 To ReloadTitles.Length
                 ReloadTitles.SetValue(InputBox("Page title no. " & i & ":", "Auto-Reload required titles", ReloadTitles.GetValue(i - 1)), i - 1)
                 If DialogResult = Windows.Forms.DialogResult.Cancel Then
-                    ' this doesn't seem to pick up that the cancel button was pressed
+                    ' this doesn't seem to pick up that the cancel button was pressed,help required
                     Exit Sub
                 End If
             Next
