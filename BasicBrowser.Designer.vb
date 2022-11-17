@@ -587,7 +587,7 @@ Partial Class BasicBrowser
     Private WithEvents timerDelayedTab As System.Windows.Forms.Timer
     Private WithEvents TabControl As System.Windows.Forms.TabControl
     Private MenuStrip As System.Windows.Forms.MenuStrip
-    Private MenuStripFile As System.Windows.Forms.ToolStripMenuItem
+    Private MenuStripFile As System.Windows.Forms.ToolStripMenuItem                       
     Private WithEvents MenuStripFileNew As System.Windows.Forms.ToolStripMenuItem
     Private WithEvents MenuStripFileCloseTab As System.Windows.Forms.ToolStripMenuItem
     Private MenuStripFileSeparator1 As System.Windows.Forms.ToolStripSeparator
